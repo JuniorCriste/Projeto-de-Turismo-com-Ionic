@@ -1,7 +1,7 @@
 ## Aplicativo de Turismo Capixaba
-#### Nome de APP: Conheça o Espírito Santo
-#### Categoria: Desenvolvimento de Apps
+### Nome de APP: Conheça o Espírito Santo
+#### Categoria: Cultura
+![](src/assets/artabout.png)
 #### Uso de: Ionic, Angular, TypeScript, e outras tecnologias da internet.
 #### Plataforma: Mooc Cefor IFES
-#### Curso: Desenvolvimento de Aplicativos com Ionic [Acesso](https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=126)
-#### Professora: Juliana Cristina Andrade
+#### Baseado no curso: Desenvolvimento de Aplicativos com Ionic [Acesso](https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=126) | Professora: Juliana Cristina Andrade
