@@ -1,9 +1,43 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>pedradacebola</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Pedra da Cebola</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-slides pager="true">
+        <ion-slide>
+          <ion-img src="https://s2.glbimg.com/g8SPBPwi_m7I_VLmj-v9QnUXKzw=/0x0:800x535/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/u/k/WUKBmFSp6jgmsmQT46tw/amp-00012916.jpg">
+            </ion-img>
+        </ion-slide>
+        <ion-slide>
+          <ion-img src="https://i0.wp.com/www.rodasnospes.com/wp-content/uploads/2018/08/DSCN9112.jpg?resize=640%2C480&ssl=1">
+            </ion-img>
+        </ion-slide>
+        <ion-slide>
+          <ion-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3RwKcaIAU2oVZL4kka4WNMoOiIzYilkjN_Q&usqp=CAU"></ion-img>
+        </ion-slide>
+      </ion-slides>
+    </ion-card-header>
+    <ion-card-content>
+      O Parque Pedra da Cebola está localizado no município brasileiro de Vitória, entre os bairros Jardim da Penha e Mata da Praia, na zona continental do município, no estado do Espírito Santo. O parque possui 100.005 metros quadrados e conta com uma vegetação típica de restinga.
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card>
+    <ion-item>
+      <ion-icon name="location-outlane" slot="start"></ion-icon>
+      <ion-label>Endereço</ion-label>
+      <ion-button fill="outline" href="https://www.google.com.br/maps/place/Parque+Pedra+da+Cebola/@-20.2765669,-40.2977346,15z/data=!4m2!3m1!1s0x0:0x71875203a67637ac?sa=X&ved=2ahUKEwjS5emMuIz0AhW3LLkGHfyuAXIQ_BJ6BAhfEAU">Ver no mapa</ion-button>
+      <ion-card-content>
+        R. Ana Viêira Mafra, s/n - Mata da Praia, Vitória - ES, 29066-010
+      </ion-card-content>
+    </ion-item>
+  </ion-card>
 
 </ion-content>
