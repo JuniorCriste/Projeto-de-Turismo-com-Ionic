@@ -7,11 +7,31 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  
+<!-- List of Sliding Items -->
+<ion-list>
+  <ion-item-sliding>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="../../assets/images/praiadospadres.jpg">
+      </ion-thumbnail>
+      <ion-label>
+        <ion-text color="primary">
+        <p>Praia dos Padres</p>
+        </ion-text>
+      <ion-text>Guarapari</ion-text>
+    </ion-label>
+        <ion-note slot="end">Sul</ion-note>
+    </ion-item>
+    <ion-item-options side="end">
+      <ion-item-option (click)="openSite()">
+        <ion-icon slot="icon-only" name="information-circle-outline"></ion-icon>
+      </ion-item-option>
+      <ion-item-option (click)="favoritar()">
+        <ion-icon slot="icon-only" name="heart-outline"></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+</ion-list>
 </ion-content>
