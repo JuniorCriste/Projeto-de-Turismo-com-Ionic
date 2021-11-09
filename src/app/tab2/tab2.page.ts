@@ -9,4 +9,15 @@ export class Tab2Page {
 
   constructor() {}
 
+  openSite(url){
+    window.open(url);
+
+  }
+
+
+  favoritar(url){
+    
+
+  }
+
 }
